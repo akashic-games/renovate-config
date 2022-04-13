@@ -1,6 +1,7 @@
 {
   "extends": [
     ":dependencyDashboard",
+    "workarounds:all",
     ":semanticPrefixFixDepsChoreOthers",
     ":ignoreModulesAndTests",
     "schedule:nonOfficeHours",
