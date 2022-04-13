@@ -1,0 +1,19 @@
+{
+  "private": true,
+  "name": "renovate-config",
+  "version": "1.0.0",
+  "description": "Shareable config presets for akashic-games",
+  "author": "DWANGO Co., Ltd.",
+  "license": "MIT",
+  "scripts": {
+    "test": "npx --package renovate -c 'renovate-config-validator' -y"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashic-games/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akashic-games/renovate-config/issues"
+  },
+  "homepage": "https://github.com/akashic-games/renovate-config#readme"
+}

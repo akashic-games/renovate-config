@@ -1,0 +1,26 @@
+{
+  "extends": [
+    ":dependencyDashboard",
+    "workarounds:all",
+    ":semanticPrefixFixDepsChoreOthers",
+    ":ignoreModulesAndTests",
+    "schedule:nonOfficeHours",
+    "group:monorepos",
+    "group:recommended",
+    "group:definitelyTyped",
+    ":timezone(Asia/Tokyo)",
+    ":prConcurrentLimitNone",
+    ":prHourlyLimitNone",
+    ":preserveSemverRanges",
+    ":label(dependencies)",
+    ":separatePatchReleases"
+  ],
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^@akashic/"],
+      "schedule": "at any time",
+      "groupName": "akashic packages",
+      "groupSlug": "akashic-dependencies"
+    }
+  ]
+}
