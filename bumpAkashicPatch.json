@@ -1,0 +1,9 @@
+{
+  "packageRules": [
+    {
+      "matchPackagePatterns": ["^@akashic/"],
+      "matchUpdateTypes": ["patch"],
+      "bumpVersion": "patch"
+    }
+  ]
+}

@@ -15,6 +15,26 @@ Shareable config presets for akashic-games.
 }
 ```
 
+### groupPatchMinor
+
+* `@akashic` モジュール以外の patch, minor 更新をそれぞれ一つの PullRequest にまとめる
+
+```json
+{
+  "extends": ["github>akashic-games/renovate-config:groupPatchMinor"]
+}
+```
+
+### bumpAkashicPatch
+
+* `@akashic` モジュール patch 更新時に package.json の patch version をすすめる
+
+```json
+{
+  "extends": ["github>akashic-games/renovate-config:bumpAkashicPatch"]
+}
+```
+
 ### groupAll
 
 * すべての依存を一つの PullRequest にまとめる
