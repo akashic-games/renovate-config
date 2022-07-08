@@ -1,0 +1,14 @@
+{
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor"],
+      "excludePackagePatterns": ["^@akashic/"],
+      "groupName": "all dependencies"
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "excludePackagePatterns": ["^@akashic/"],
+      "groupName": "all dependencies"
+    }
+  ]
+}
