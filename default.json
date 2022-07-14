@@ -9,8 +9,7 @@
     ":prConcurrentLimitNone",
     ":prHourlyLimitNone",
     ":preserveSemverRanges",
-    ":label(dependencies)",
-    ":separatePatchReleases"
+    ":label(dependencies)"
   ],
   "packageRules": [
     {
