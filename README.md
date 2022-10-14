@@ -44,3 +44,12 @@ Shareable config presets for akashic-games.
   "extends": ["github>akashic-games/renovate-config:groupAll"]
 }
 ```
+
+### groupEngineFiles
+* `engine-files` の更新を patch, minor ごとに PullRequest をまとめ、patch, minor に対応したpackage.json の version をすすめる
+
+```json
+{
+  "extends": ["github>akashic-games/renovate-config:groupEngineFiles"]
+}
+```
