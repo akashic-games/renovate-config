@@ -46,7 +46,7 @@ Shareable config presets for akashic-games.
 ```
 
 ### groupEngineFiles
-* `engine-files` の更新を patch, minor ごとに PullRequest をまとめ、patch, minor に対応したpackage.json の version をすすめる
+* `engine-files` の更新を patch, minor で PullRequest を作成し、patch, minor に対応したpackage.json の version をすすめる
 
 ```json
 {
