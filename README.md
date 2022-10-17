@@ -45,11 +45,42 @@ Shareable config presets for akashic-games.
 }
 ```
 
-### groupEngineFiles
-* `engine-files` の更新を patch, minor で PullRequest を作成し、patch, minor に対応したpackage.json の version をすすめる
+### engineFilesAlias/update
+
+* `@akashic/engine-files@v*` のエイリアス `aev*` を "at any time" で更新する
 
 ```json
 {
-  "extends": ["github>akashic-games/renovate-config:groupEngineFiles"]
+  "extends": ["github>akashic-games/renovate-config//engineFilesAlias/update"]
+}
+```
+
+### engineFilesAlias/automerge
+
+* `@akashic/engine-files@v*` のエイリアス `aev*` の PullRequest を auto-merge する
+
+```json
+{
+  "extends": ["github>akashic-games/renovate-config//engineFilesAlias/automerge"]
+}
+```
+
+### engineFilesAlias/bump
+
+* `@akashic/engine-files@v*` のエイリアス `aev*` の patch, minor 更新に応じて自身のバージョンをすすめる
+
+```json
+{
+  "extends": ["github>akashic-games/renovate-config//engineFilesAlias/bump"]
+}
+```
+
+### engineFilesAlias/bump
+
+* `engineFilesAlias/` 配下の `update`, `automerge`, `bump` を合わせたルール
+
+```json
+{
+  "extends": ["github>akashic-games/renovate-config//engineFilesAlias/default"]
 }
 ```
