@@ -1,0 +1,16 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": ["aev1"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": ["aev2"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": ["aev3"],
+      "automerge": true
+    }
+  ]
+}

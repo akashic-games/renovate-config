@@ -1,0 +1,7 @@
+{
+  "extends": [
+    "github>ShinobuTakahashi/renovate-config//engineFilesAlias/update",
+    "github>ShinobuTakahashi/renovate-config//engineFilesAlias/automerge",
+    "github>ShinobuTakahashi/renovate-config//engineFilesAlias/bump"
+  ]
+}

@@ -2,12 +2,6 @@
   "packageRules": [
     {
       "matchPackageNames": ["aev1"],
-      "allowedVersions": "<2.0",
-      "groupName": "engine-files@1",
-      "schedule": "at any time"
-    },
-    {
-      "matchPackageNames": ["aev1"],
       "matchUpdateTypes": ["patch"],
       "bumpVersion": "patch"
     },
@@ -18,12 +12,6 @@
     },
     {
       "matchPackageNames": ["aev2"],
-      "allowedVersions": "<3.0",
-      "groupName": "engine-files@2",
-      "schedule": "at any time"
-    },
-    {
-      "matchPackageNames": ["aev2"],
       "matchUpdateTypes": ["patch"],
       "bumpVersion": "patch"
     },
@@ -31,12 +19,6 @@
       "matchPackageNames": ["aev2"],
       "matchUpdateTypes": ["minor"],
       "bumpVersion": "minor"
-    },
-    {
-      "matchPackageNames": ["aev3"],
-      "allowedVersions": "<4.0",
-      "groupName": "engine-files@3",
-      "schedule": "at any time"
     },
     {
       "matchPackageNames": ["aev3"],
