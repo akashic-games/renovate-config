@@ -1,7 +1,7 @@
 {
   "extends": [
-    "github>ShinobuTakahashi/renovate-config//engineFilesAlias/update",
-    "github>ShinobuTakahashi/renovate-config//engineFilesAlias/automerge",
-    "github>ShinobuTakahashi/renovate-config//engineFilesAlias/bump"
+    "github>akashic-games/renovate-config//engineFilesAlias/update",
+    "github>akashic-games/renovate-config//engineFilesAlias/automerge",
+    "github>akashic-games/renovate-config//engineFilesAlias/bump"
   ]
 }
