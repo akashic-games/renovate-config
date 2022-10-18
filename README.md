@@ -47,7 +47,7 @@ Shareable config presets for akashic-games.
 
 ### engineFilesAlias
 
-* `@akashic/engine-files@v*` のエイリアスの設定。このルールを利用するには `@akashic/engine-files@v*` を利用するモジュール側の package.json で `aev*` をエイリアスにする必要があります。
+* `@akashic/engine-files@v*` のエイリアス `aev*` の設定。このルールを利用するには `@akashic/engine-files@v*` を利用するモジュール側の package.json で `aev*` をエイリアスにする必要があります。
 
 ```json
 "dependencies": {
