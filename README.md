@@ -77,7 +77,7 @@ Shareable config presets for akashic-games.
 
 #### engineFilesAlias/bump
 
-* `aev*` の patch が更新されていれば patch version を, minor が更新されていれば minor version をすすめる
+* `aev*` の patch が更新されていれば patch version をすすめ、 minor が更新されていれば minor version をすすめる
 
 ```json
 {
