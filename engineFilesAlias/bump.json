@@ -1,32 +1,32 @@
 {
   "packageRules": [
     {
-      "matchPackageNames": ["aev1"],
+      "matchPackageNames": ["engine-files-v1"],
       "matchUpdateTypes": ["patch"],
       "bumpVersion": "patch"
     },
     {
-      "matchPackageNames": ["aev1"],
+      "matchPackageNames": ["engine-files-v1"],
       "matchUpdateTypes": ["minor"],
       "bumpVersion": "minor"
     },
     {
-      "matchPackageNames": ["aev2"],
+      "matchPackageNames": ["engine-files-v2"],
       "matchUpdateTypes": ["patch"],
       "bumpVersion": "patch"
     },
     {
-      "matchPackageNames": ["aev2"],
+      "matchPackageNames": ["engine-files-v2"],
       "matchUpdateTypes": ["minor"],
       "bumpVersion": "minor"
     },
     {
-      "matchPackageNames": ["aev3"],
+      "matchPackageNames": ["engine-files-v3"],
       "matchUpdateTypes": ["patch"],
       "bumpVersion": "patch"
     },
     {
-      "matchPackageNames": ["aev3"],
+      "matchPackageNames": ["engine-files-v3"],
       "matchUpdateTypes": ["minor"],
       "bumpVersion": "minor"
     }

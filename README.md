@@ -47,17 +47,17 @@ Shareable config presets for akashic-games.
 
 ### engineFilesAlias
 
-* `@akashic/engine-files@v*` のエイリアス `aev*` の設定。このルールを利用するには `@akashic/engine-files@v*` を利用するモジュール側の package.json で `aev*` をエイリアスにする必要があります。
+* `@akashic/engine-files@v*` のエイリアス `engine-files-v*` の設定。このルールを利用するには `@akashic/engine-files@v*` を利用するモジュール側の package.json で `engine-files-v*` をエイリアスにする必要があります。
 
 ```json
 "dependencies": {
-  "aev3": "npm:@akashic/engine-files@3.x.x"
+  "engine-files-v3": "npm:@akashic/engine-files@3.x.x"
 }
 ```
 
 #### engineFilesAlias/update
 
-*  `aev*` を "at any time" で更新する
+*  `engine-files-v*` を "at any time" で更新する
 
 ```json
 {
@@ -67,7 +67,7 @@ Shareable config presets for akashic-games.
 
 #### engineFilesAlias/automerge
 
-* `aev*` の PullRequest を auto-merge する
+* `engine-files-v*` の PullRequest を auto-merge する
 
 ```json
 {
@@ -77,7 +77,7 @@ Shareable config presets for akashic-games.
 
 #### engineFilesAlias/bump
 
-* `aev*` の patch が更新されていれば patch version をすすめ、 minor が更新されていれば minor version をすすめる
+* `engine-files-v*` の patch が更新されていれば patch version をすすめ、 minor が更新されていれば minor version をすすめる
 
 ```json
 {

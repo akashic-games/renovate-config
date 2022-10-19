@@ -1,15 +1,15 @@
 {
   "packageRules": [
     {
-      "matchPackageNames": ["aev1"],
+      "matchPackageNames": ["engine-files-v1"],
       "automerge": true
     },
     {
-      "matchPackageNames": ["aev2"],
+      "matchPackageNames": ["engine-files-v2"],
       "automerge": true
     },
     {
-      "matchPackageNames": ["aev3"],
+      "matchPackageNames": ["engine-files-v3"],
       "automerge": true
     }
   ]
