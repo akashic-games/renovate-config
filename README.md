@@ -47,7 +47,9 @@ Shareable config presets for akashic-games.
 
 ### engineFilesAlias
 
-* `@akashic/engine-files@v*` のエイリアス `engine-files-v*` の設定。このルールを利用するには `@akashic/engine-files@v*` を利用するモジュール側の package.json で `engine-files-v*` をエイリアスにする必要があります。
+`@akashic/engine-files@v*` のエイリアス `engine-files-v*` の設定。
+
+このルールは利用側で `@akashic/engine-files@v*` を `engine-files-v*` にエイリアスしていることを前提としています。
 
 ```json
 "dependencies": {
@@ -57,7 +59,7 @@ Shareable config presets for akashic-games.
 
 #### engineFilesAlias/update
 
-*  `engine-files-v*` を "at any time" で更新する
+*  `engine-files-v*` モジュールは即時に PullRequest を作成する
 
 ```json
 {
@@ -77,7 +79,7 @@ Shareable config presets for akashic-games.
 
 #### engineFilesAlias/bump
 
-* `engine-files-v*` の patch が更新されていれば patch version をすすめ、 minor が更新されていれば minor version をすすめる
+* `engine-files-v*` の patch が更新されていれば package.json の patch version をすすめ、 minor が更新されていれば minor version をすすめる
 
 ```json
 {
@@ -87,7 +89,10 @@ Shareable config presets for akashic-games.
 
 #### engineFilesAlias/default
 
-* `engineFilesAlias/` 配下の `update`, `automerge`, `bump` を合わせたルール
+* 以下を合わせたルールを利用する
+  * `engineFilesAlias/update`
+  * `engineFilesAlias/automerge`
+  * `engineFilesAlias/bump`
 
 ```json
 {
