@@ -1,0 +1,34 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": ["engine-files-v1"],
+      "matchUpdateTypes": ["patch"],
+      "bumpVersion": "patch"
+    },
+    {
+      "matchPackageNames": ["engine-files-v1"],
+      "matchUpdateTypes": ["minor"],
+      "bumpVersion": "minor"
+    },
+    {
+      "matchPackageNames": ["engine-files-v2"],
+      "matchUpdateTypes": ["patch"],
+      "bumpVersion": "patch"
+    },
+    {
+      "matchPackageNames": ["engine-files-v2"],
+      "matchUpdateTypes": ["minor"],
+      "bumpVersion": "minor"
+    },
+    {
+      "matchPackageNames": ["engine-files-v3"],
+      "matchUpdateTypes": ["patch"],
+      "bumpVersion": "patch"
+    },
+    {
+      "matchPackageNames": ["engine-files-v3"],
+      "matchUpdateTypes": ["minor"],
+      "bumpVersion": "minor"
+    }
+  ]
+}

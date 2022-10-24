@@ -1,0 +1,16 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": ["engine-files-v1"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": ["engine-files-v2"],
+      "automerge": true
+    },
+    {
+      "matchPackageNames": ["engine-files-v3"],
+      "automerge": true
+    }
+  ]
+}
