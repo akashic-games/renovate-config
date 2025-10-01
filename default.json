@@ -17,10 +17,15 @@
   ],
   "packageRules": [
     {
+      "matchDatasources": ["npm"],
+      "minimumReleaseAge": "7 days"
+    },
+    {
       "matchPackagePatterns": ["^@akashic/"],
       "schedule": "at any time",
       "groupName": "akashic packages",
-      "groupSlug": "akashic-dependencies"
+      "groupSlug": "akashic-dependencies",
+      "minimumReleaseAge": "0 days"
     }
   ]
 }

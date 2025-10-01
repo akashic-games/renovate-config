@@ -8,6 +8,8 @@ Shareable config presets for akashic-games.
 
 * `@akashic` モジュールは即時に PullRequest を作成する
 * それ以外のモジュールは業務時間外に PullRequest を作成する
+* `@akashic` モジュール以外の PullRequest は更新から7日以上経過したもののみ更新する内容になっている
+  * `@akashic` モジュールの PullRequest は更新から即日更新する内容になっている
 
 ```json
 {
