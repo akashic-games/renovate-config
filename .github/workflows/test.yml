@@ -2,10 +2,6 @@ name: test
 
 on: [push, pull_request]
 
-# renovate-config-validatorを利用するためwrite-allに一旦設定
-# TODO: renovate-config-validatorの適切なpermissionsが分かり次第修正
-permissions: write-all
-
 jobs:
   test:
     runs-on: ubuntu-latest
