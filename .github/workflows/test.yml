@@ -15,6 +15,6 @@ jobs:
       - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: '22'
-      - uses: rinchsan/renovate-config-validator@a40c408891a94d4efa4a57b193a8d126de442efb # v0.1.1
+      - uses: rinchsan/renovate-config-validator@v0.2.0 # PIN 指定では動作しないためバージョン指定
         with:
           pattern: '*.json'
