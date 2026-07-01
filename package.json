@@ -14,5 +14,12 @@
   "license": "MIT",
   "devDependencies": {
     "renovate": "^42.27.4"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "npm",
+      "version": ">=11.11.0",
+      "onFail": "error"
+    }
   }
 }
