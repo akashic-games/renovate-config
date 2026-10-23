@@ -15,10 +15,17 @@
   "devDependencies": {
     "renovate": "^42.27.4"
   },
+  "allowScripts": {
+    "better-sqlite3@12.4.6": true,
+    "core-js-pure@3.47.0": true,
+    "dtrace-provider@0.8.8": true,
+    "protobufjs@7.5.4": true,
+    "re2@1.22.3": true
+  },
   "devEngines": {
     "packageManager": {
       "name": "npm",
-      "version": ">=11.11.0",
+      "version": ">=11.19.0",
       "onFail": "error"
     }
   }
